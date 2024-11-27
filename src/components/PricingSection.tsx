@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Shield } from "lucide-react";
 
 export const PricingSection = () => {
   return (
@@ -17,10 +16,6 @@ export const PricingSection = () => {
             <Button size="lg" className="w-full bg-primary hover:bg-primary-hover mb-4">
               Télécharger le guide maintenant
             </Button>
-            <div className="flex items-center justify-center text-sm text-gray-500 mt-4">
-              <Shield className="w-4 h-4 mr-2" />
-              <span>Garantie satisfait ou remboursé pendant 30 jours</span>
-            </div>
           </div>
         </div>
       </div>
