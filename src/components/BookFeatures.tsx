@@ -2,10 +2,10 @@ import { Check } from "lucide-react";
 
 export const BookFeatures = () => {
   const features = [
-    "10 chapitres détaillés avec des exercices pratiques",
-    "Des études de cas réels et inspirants",
-    "Des techniques éprouvées et faciles à appliquer",
-    "Des bonus exclusifs pour accélérer vos résultats",
+    "Les secrets pour détecter tous les types de radars",
+    "Comment éviter légalement les contraventions",
+    "Les meilleurs itinéraires pour rouler sereinement",
+    "Des conseils d'experts en sécurité routière",
   ];
 
   return (
@@ -16,7 +16,7 @@ export const BookFeatures = () => {
             Ce que vous allez découvrir
           </h2>
           <p className="text-gray-500 md:text-lg max-w-2xl mx-auto">
-            Un contenu riche et actionnable pour des résultats concrets
+            Un guide complet pour rouler en toute tranquillité
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">

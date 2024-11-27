@@ -8,10 +8,10 @@ export const Hero = () => {
           <div className="flex flex-col justify-center space-y-4 animate-fade-up">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none gradient-text">
-                Découvrez les Secrets pour Réussir
+                Ne payez plus jamais de PV pour excès de vitesse
               </h1>
               <p className="max-w-[600px] text-gray-500 md:text-xl">
-                Un guide complet pour transformer votre vie et atteindre vos objectifs les plus ambitieux.
+                Découvrez la méthode légale et infaillible pour éviter les contraventions routières et rouler l'esprit tranquille.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -26,7 +26,7 @@ export const Hero = () => {
           <div className="mx-auto lg:mx-0 animate-fade-up" style={{ animationDelay: "0.2s" }}>
             <img
               src="/placeholder.svg"
-              alt="Couverture de l'ebook"
+              alt="Guide pour éviter les contraventions"
               className="aspect-[4/5] object-cover rounded-2xl bg-gray-100 shadow-2xl"
               width={400}
               height={500}
