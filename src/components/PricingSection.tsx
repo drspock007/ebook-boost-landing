@@ -11,8 +11,8 @@ export const PricingSection = () => {
           </h2>
           <div className="mt-8 p-8 rounded-2xl bg-white shadow-lg border border-gray-200">
             <div className="mb-4">
-              <span className="text-4xl font-bold">29,99€</span>
-              <span className="text-gray-500 line-through ml-2">49,99€</span>
+              <span className="text-4xl font-bold">9,99€</span>
+              <span className="text-gray-500 line-through ml-2">19,99€</span>
             </div>
             <Button size="lg" className="w-full bg-primary hover:bg-primary-hover mb-4">
               Télécharger le guide maintenant

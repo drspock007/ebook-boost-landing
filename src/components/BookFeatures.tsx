@@ -2,9 +2,7 @@ import { Check } from "lucide-react";
 
 export const BookFeatures = () => {
   const features = [
-    "Les secrets pour détecter tous les types de radars",
     "Comment éviter légalement les contraventions",
-    "Les meilleurs itinéraires pour rouler sereinement",
     "Des conseils d'experts en sécurité routière",
   ];
 
