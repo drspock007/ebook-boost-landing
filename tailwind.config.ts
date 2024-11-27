@@ -25,11 +25,11 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#9b87f5",
-          hover: "#7E69AB",
+          DEFAULT: "#F97316", // Bright orange
+          hover: "#EA580C", // Darker orange
         },
         secondary: {
-          DEFAULT: "#6E59A5",
+          DEFAULT: "#FB923C", // Lighter orange
           foreground: "hsl(var(--secondary-foreground))",
         },
       },
