@@ -14,6 +14,8 @@ export const VideoTestimonial = () => {
           <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-xl">
             <video 
               controls
+              autoPlay
+              muted
               className="w-full h-full object-cover"
               preload="metadata"
             >
