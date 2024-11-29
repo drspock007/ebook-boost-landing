@@ -22,13 +22,6 @@ export const Hero = () => {
               >
                 Obtenir l'ebook à 9,99€
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg"
-                onClick={() => window.location.href = 'https://ebookia.store/produit/comment-ne-jamais-payer-de-contravention-pour-exces-de-vitesse/'}
-              >
-                En savoir plus
-              </Button>
             </div>
           </div>
           <div className="mx-auto lg:mx-0 animate-fade-up" style={{ animationDelay: "0.2s" }}>
