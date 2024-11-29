@@ -15,10 +15,18 @@ export const Hero = () => {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button size="lg" className="bg-[#F97316] hover:bg-[#EA580C]">
-                Obtenir l'ebook à 29,99€
+              <Button 
+                size="lg" 
+                className="bg-primary hover:bg-primary-hover"
+                onClick={() => window.location.href = 'https://ebookia.store/produit/comment-ne-jamais-payer-de-contravention-pour-exces-de-vitesse/'}
+              >
+                Obtenir l'ebook à 9,99€
               </Button>
-              <Button variant="outline" size="lg">
+              <Button 
+                variant="outline" 
+                size="lg"
+                onClick={() => window.location.href = 'https://ebookia.store/produit/comment-ne-jamais-payer-de-contravention-pour-exces-de-vitesse/'}
+              >
                 En savoir plus
               </Button>
             </div>

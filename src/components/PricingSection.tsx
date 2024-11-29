@@ -13,7 +13,11 @@ export const PricingSection = () => {
               <span className="text-4xl font-bold">9,99€</span>
               <span className="text-gray-500 line-through ml-2">19,99€</span>
             </div>
-            <Button size="lg" className="w-full bg-primary hover:bg-primary-hover mb-4">
+            <Button 
+              size="lg" 
+              className="w-full bg-primary hover:bg-primary-hover"
+              onClick={() => window.location.href = 'https://ebookia.store/produit/comment-ne-jamais-payer-de-contravention-pour-exces-de-vitesse/'}
+            >
               Télécharger le guide maintenant
             </Button>
           </div>
