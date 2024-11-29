@@ -15,7 +15,7 @@ export const Hero = () => {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button size="lg" className="bg-primary hover:bg-primary-hover">
+              <Button size="lg" className="bg-[#F97316] hover:bg-[#EA580C]">
                 Obtenir l'ebook à 29,99€
               </Button>
               <Button variant="outline" size="lg">
@@ -25,11 +25,9 @@ export const Hero = () => {
           </div>
           <div className="mx-auto lg:mx-0 animate-fade-up" style={{ animationDelay: "0.2s" }}>
             <img
-              src="/placeholder.svg"
-              alt="Guide pour éviter les contraventions"
-              className="aspect-[4/5] object-cover rounded-2xl bg-gray-100 shadow-2xl"
-              width={400}
-              height={500}
+              src="/lovable-uploads/3b9ed4f4-f6aa-4320-8963-19c097957a4c.png"
+              alt="Méthode infaillible pour ne pas payer de contravention"
+              className="w-full max-w-[600px] rounded-2xl shadow-2xl"
             />
           </div>
         </div>
