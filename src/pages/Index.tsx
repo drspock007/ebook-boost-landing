@@ -4,6 +4,7 @@ import { PricingSection } from "@/components/PricingSection";
 import { PurchaseBanner } from "@/components/PurchaseBanner";
 import { Testimonials } from "@/components/Testimonials";
 import { VideoTestimonial } from "@/components/VideoTestimonial";
+import { CookieBanner } from "@/components/CookieBanner";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <BookFeatures />
       <Testimonials />
       <PricingSection />
+      <CookieBanner />
     </div>
   );
 };
